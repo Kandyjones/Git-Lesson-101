@@ -17,3 +17,11 @@
 - git add index.html
 - git commit -m "add a note"
 - git push origin master
+
+## KUBERNETES
+## Run your VMware
+- VMware or through SSH can be used.
+- sudo su [be on the root]
+- apt-get update [run update on your vmware]
+- apt-get upgrade [upgrade your Vmware]
+
