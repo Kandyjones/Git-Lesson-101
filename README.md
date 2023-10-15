@@ -78,6 +78,6 @@ sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 - kubectl create depolyment pyidyjok8s-dep --image=nginx
 - kubectl scale deployment pyidyjok8s-dep --replicas=12
 - minikube dashboard [confirm your deployment. deployment will be launched on your default browser. Check your browser]
-- minikube addons enable metric-server [run minikube addons]
+- minikube addons enable metrics-server [run minikube addons]
 - minikube dashboard [confirm your deployment. deployment will be launched on your default browser. Check your browser]
 - minikube stop 
